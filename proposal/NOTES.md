@@ -28,16 +28,29 @@ Use this for brainstorming about the proposal
 + The Neighborhood Handyman: something more technical as the subtitle
 + The Friendly Neighbor: a standardized and efficient enabler for multi-project
   GitHub tasks
-+ **neighbor: a tool for multi-project GitHub search and arbitrary concurrent exploration**
++ neighbor: a tool for multi-project GitHub search and arbitrary concurrent exploration
++ **neighbor: a tool written in Go for multi-project GitHub search and arbitrary concurrent exploration**
++ The lessons learned from writing a tool in Go for multi-project GitHub search and arbitrary concurrent exploration
 
 ## Talk Outline
 Lessons will include:
 + language choice
   + first, used Python (library support for interacting with GitHub was not great)
+    + what was lacking in library support in Python (this is a question I get a lot when pitching the idea)
   + Go has `google/go-github` and `src-d/go-git`)
   + Go's support and accessibility for concurrency
+    + maybe include a snippet of concurrent code in Python?
 + concurrency pipelines
+  + fanout
+  + point audience to good references for pipelines since it is out of the scope of this talk
 + race condition (and detection)
+  + quickly, what is a race condition
+  + **what was the specific race condition in our code**
+    _I need to revisit this (there should be the old PR)_
+  + mention the `-race` flag
+      + why does `go build -race ...` not show me my race conditions!?
+        + build-time race conditions
+      + run-time race detection `go run -race ...`
 + channels (buffered v. unbuffered)
   + why we chose to use unbuffered channels
     + mainly guarantees (in an academic context, for research, this is important)
