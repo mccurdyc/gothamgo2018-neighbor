@@ -1,5 +1,33 @@
 Use this for brainstorming about the proposal
 
+### Resources
++ https://www.oreilly.com/conferences/sample_proposals.html#tech
++ https://bridgetkromhout.com/blog/give-actionable-takeaways/
+
+## Talk Outline
+
++ community
++ library support
++ concurrency
+  + pipelines; namely fanout
+  + channels; guaranteed delivery
+  + race conditions (and detection)
++ originally started in Python
+  + spent a lot of time figuring out how to manage dependencies
+    + at a high-level there is no community standard
+    + `requirements.txt`
+    + pipenv
+    + virtualenvs
+    + there is a 2-hour, \$50 course for managing dependencies! (https://training.talkpython.fm/courses/explore_python_dependencies_course/managing-python-dependencies-with-pip-and-virtual-environments)
+  + inaccessibility of concurrency
+      + show an example (ask Dr. Kapfhammer for help)
+  + Google search: "python search repo github" versus "golang search repo github"
+    + i.e., the answer was not clear with the python search
++ what problem neighbor aims to solve (story)
+  + examples
+    + `go cover`
+    + getting a new developer started at your company
+
 ## General Thoughts
 
 + neighbor is an enabler
