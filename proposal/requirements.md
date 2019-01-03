@@ -71,3 +71,24 @@ in Resiliency (chaos) Engineering. The premise of both Mutation Testing and Chao
 Engineering is to design an experiment --- think of mutated versions of the code
 or infrastructure --- that will lead to the propagation of errors.
 
+## Dr. Kapfhammer
+Name:
+Twitter Handle:
+Organization/Affiliation:
+Shirt Size:
+Bio:
+
+## Saejin
+Name:
+Twitter Handle:
+Organization/Affiliation:
+Shirt Size:
+Bio:
+
+---
+
+Additional Information:
+
+This is probably where we include the multi-speaker information (I think we should discuss).
+Also flight information. Links to prior presentations.
+
