@@ -65,7 +65,7 @@ Organization/Affiliation: StockX, LLC
 Shirt Size: M
 Bio: Colton McCurdy is a backend engineer at StockX who has designed, implemented
 and maintained many of the company's microservices written in Go. Prior to joining
-StockX in 2017, Colton completed his undergraduate degree at Allegheny College, where
+StockX in 2017, Colton completed his B.S in Computer Science at Allegheny College, where
 his research focus was in Mutation Testing which has lead to his newfound interest
 in Resiliency (chaos) Engineering. The premise of both Mutation Testing and Chaos
 Engineering is to design an experiment --- think of mutated versions of the code
