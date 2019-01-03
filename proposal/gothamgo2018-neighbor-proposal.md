@@ -52,7 +52,7 @@
 
 6. Tags
 
-  golang, concurrency, github, git
+  golang, concurrency, github, git, community, standards
 
 ---
 
