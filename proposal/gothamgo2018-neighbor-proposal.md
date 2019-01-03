@@ -63,7 +63,7 @@ Name: Colton J. McCurdy
 Twitter Handle: @McCurdyColton
 Organization/Affiliation: StockX, LLC
 Shirt Size: M
-Bio: Colton McCurdy is a backend engineer at StockX who has designed, written
+Bio: Colton McCurdy is a backend engineer at StockX who has designed, implemented
 and maintained many of the company's microservices written in Go. Prior to joining
 StockX in 2017, Colton completed his undergraduate degree at Allegheny College, where
 his research focus was in Mutation Testing which has lead to his newfound interest
