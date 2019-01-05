@@ -1,13 +1,13 @@
 1. Title
 
-  Multi-project GitHub search and arbitrary concurrent exploration in Go
+  Multi-project GitHub Search and Advanced Concurrent Repository Exploration in Go
 
 2. Elevator Pitch (300 characters)
 
-  Go has excellent lib support for interacting with GitHub and writing concurrent
-  code. While creating a tool for dynamic repository search and arbitrary concurrent
-  exploration, I encountered common obstacles such as concurrent design, un- v. buffered
-  chans and the importance of community standards.
+  When creating a tool in Go for advanced GitHub search and concurrent repository
+  exploration, we encountered many challenges. In addition to highlighting how
+  community standards support language and package discovery, this talk explains
+  the design decisions that we made to support concurrency.
 
 3. Audience Level (Beginner? Intermediate?)
 
@@ -15,14 +15,20 @@
 
 4. Description (seen by attendees)
 
-  Go has excellent library support for interacting with projects on GitHub and
-  writing concurrent applications is more accessible than in languages, such as Python.
-  While creating neighbor, a tool for dynamic GitHub repository searches and arbitrary
-  concurrent exploration in Go, I encountered common obstacles such as designing
-  a pipeline for processing results, race conditions, trade-offs between unbuffered and buffered
-  channels and the importance of community standards.
+  When creating a tool for advanced GitHub search and concurrent repository
+  exploration, we encountered challenges with language choice, package discovery
+  and designing a tool with support for concurrency. The Go community offers a
+  clear standard going for dependency management and centralized resource for
+  package discovery and documentation with modules and GoDoc, respectively.
+  In addition to the aforementioned offerings, the Go community has well-defined
+  patterns for concurrency. While highlighting the reasons for choosing to write
+  our tool in Go, this talk provides justification for supporting concurrency
+  using a fanout design pattern, the steps for identifying and fixing race
+  conditions and trade-offs between unbuffered and buffered channels.
 
-5. Notes (only be seen by reviewers during the CFP process. This is where you should explain things such as technical requirements, why you're the best person to speak on this subject, etc.)
+5. Notes (only be seen by reviewers during the CFP process. This is where you
+   should explain things such as technical requirements, why you're the best
+   person to speak on this subject, etc.)
 
   In this talk I will discuss the challenges faced and lessons learned while creating
   my first personal open source tool in Go. This project helped identify the importance of
@@ -71,3 +77,9 @@ in Resiliency (chaos) Engineering. The premise of both Mutation Testing and Chao
 Engineering is to design an experiment --- think of mutated versions of the code
 or infrastructure --- that will lead to the propagation of errors.
 
+## Notes
++ three authors, but one presenter
++ the third author is a student
++ also explain that i am the lead author and presenter
++ include all of our names as authors for external visibility (for the college)
++ also make it clear that we dont expect funding for all authors, but additional funding would be helpful
