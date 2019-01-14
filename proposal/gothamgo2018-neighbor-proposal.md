@@ -18,13 +18,13 @@
   When creating a tool for advanced GitHub search and concurrent repository
   exploration, we encountered challenges with language choice, package discovery
   and designing a tool with support for concurrency. The Go community offers a
-  clear standard going for dependency management and centralized resource for
-  package discovery and documentation with modules and GoDoc, respectively.
-  In addition to the aforementioned offerings, the Go community has well-defined
-  patterns for concurrency. While highlighting the reasons for choosing to write
-  our tool in Go, this talk provides justification for supporting concurrency
-  using a fanout design pattern, the steps for identifying and fixing race
-  conditions and trade-offs between unbuffered and buffered channels.
+  standard for dependency management, a centralized resource for package discovery
+  and documentation with modules and GoDoc, respectively. In addition to the
+  aforementioned offerings, the Go community has well-defined patterns for concurrency.
+  While highlighting the reasons for choosing to write our tool in Go, this talk
+  provides justification for supporting concurrency using a fanout design pattern,
+  the steps for identifying and fixing race conditions and trade-offs between
+  unbuffered and buffered channels.
 
 5. Notes (only be seen by reviewers during the CFP process. This is where you
    should explain things such as technical requirements, why you're the best
@@ -81,12 +81,12 @@ Twitter Handle: @McCurdyColton
 Organization/Affiliation: StockX, LLC
 Shirt Size: M
 Bio: Colton McCurdy is a backend engineer at StockX who has designed, implemented
-and maintained many of the company's microservices written in Go. Prior to joining
-StockX in 2017, Colton completed his B.S in Computer Science at Allegheny College, where
-his research focus was in Mutation Testing which has lead to his newfound interest
-in Resiliency (chaos) Engineering. The premise of both Mutation Testing and Chaos
-Engineering is to design an experiment --- think of mutated versions of the code
-or infrastructure --- that will lead to the propagation of errors.
+and maintained many of the company's services written in Go. Prior to joining
+StockX in 2017, Colton completed his B.S in Computer Science at Allegheny College,
+where his research focus was in Mutation Testing which led to his new-found interest
+in Resiliency (Chaos) Engineering. The premise of both Mutation Testing and Chaos
+Engineering is to design an experiment --- mutated versions of the code
+or infrastructure --- that leads to error propagation.
 
 ## Notes
 + three authors, but one presenter
