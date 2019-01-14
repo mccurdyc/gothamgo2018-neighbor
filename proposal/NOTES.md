@@ -126,3 +126,65 @@ Lessons will include:
     + potentially add pagination based on disk space
     + remove/compress (maybe having the analyzed source code is important) a project's source after exploration
 6. invitation to start using the tool
+
+---
+
+Bridget's Thoughts
+
+Title
+
+- In a single-track event, an attention-grabbing title isn't as essential.
+  However, when I looked at your list of titles, I immediately thought "Won't
+  You Be My Neighbor? A Tool for Multi-Project GitHub Search" would be a fun title.
+
+- Capitalize the word after the hyphen if it would be capitalized on its own.
+
+- The others are okay, though avoid "handyman" because it's gendered. (I would
+  downvote a talk that made me think "annoying tech bro who doesn't consider how
+  women/enby techies will feel upon reading the title".)
+
+- Complex phrases like "multi-project GitHub search and arbitrary concurrent
+  exploration" don't belong in industry conference talk titles (even though yes,
+  I know academia uses titles like this). They can go in the short or long
+  description. When I look at "Multi-project GitHub Search and Advanced Concurrent
+  Repository Exploration in Go" It's entirely too much to digest, mentally.
+  **All that extra detail gets lost in the title, and would be better in the description.**
+
+Elevator Pitch (Or, short description)
+- You say "we" and explain it in the notes to the committee, but your collaborators
+  don't make much of an appearance on GitHub. That's confusing (though it does
+  appear that active development might be happening elsewhere)?
+
+Talk Outline
+- There are two sections entitled this, in https://github.com/mccurdyc/gothamgo2018-neighbor/blob/mccurdyc/rough-draft/proposal/NOTES.md.
+  The first one spends way too much time establishing the scene. The second one is
+  better, but while you want the takeaways, it might be awkward to lead with them.
+  Start with the pain point. You can backtrack to technical detail, but you
+  only get one chance to capture people's imaginations. Get to the "Why" as soon as you can.
+
+Other thoughts: "The Go community offers a clear standard going for dependency management"
+Granted I'm not really in the Go community, but I read that and first I'm like
+"is there a new standard called "going"? and also I'm skeptical because I see the drama around dep.
+
+In the future work section, are those 5-8 case studies in progress? Or are you
+saying you would want there to be some case studies?
+
+Bio: Consider using the Oxford comma, and your use of "has lead" should be "has led".
+(The latter is a highly common error.)
+
+In general: I chatted with one of the organizers because I wanted to make sure
+that they didn't require large-scale production use cases. They don't care about
+that, which is great (whereas most confs I'm involved with want to know how things
+scale). **They care about variety and innovative ideas, so you probably want to make
+sure you're highlighting how this is different from other tools and why you wrote
+this instead of adapting/repurposing something out there.**
+
+Your language is a bit formal/academic. It's possible you plan on also submitting
+this to academic conferences. **If you don't, then it's okay to make it a bit more
+storytelling-ish.** "When we tried to foo and bar, we ran up against a brick wall
+of baz." "Solving our foobar problems gave us X and Y, which we expected, but
+Z was an unanticipated bonus!" A bit more conversational, basically.
+
+Overall, this is good stuff. They care that something seems well thought out, which yours is
+
+I'd be happy to look again in the next couple days if you want!
